@@ -9,7 +9,7 @@ text-align: center;
 }
 
 #camera-lens {
-animation: camera 1s ease infinite linear;
+animation: camera 2s infinite linear;
 transform-origin: center;
 transform-box: fill-box;
 }
@@ -23,3 +23,19 @@ transform: rotateZ(-30deg)
 }
 }
 
+#circle-head {
+animation: head 2s infinite linear;
+transform-origin: center;
+transform-box: fill-box;
+}
+
+@keyframes head {
+from {
+transform: rotateY(0deg);
+}
+
+to {
+transform: rotate(20deg);
+}
+
+}
