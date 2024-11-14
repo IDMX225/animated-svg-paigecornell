@@ -11,6 +11,7 @@ text-align: center;
 #camera-lens {
 animation: camera 1s ease;
 transform-origin: center;
+transform-box: fill-box;
 }
 
 @keyframes camera {
@@ -18,6 +19,6 @@ from {
 transform: rotateZ(0);
 }
 to {
-transform: rotateZ(-40deg)
+transform: rotateZ(-30deg)
 }
 }
