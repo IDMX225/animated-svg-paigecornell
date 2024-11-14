@@ -7,3 +7,17 @@ box-sizing: border-box;
 body {
 text-align: center; 
 }
+
+#camera-lens {
+animation: camera 1s ease;
+transform-origin: center;
+}
+
+@keyframes camera {
+from {
+transform: rotateZ(0);
+}
+to {
+transform: rotateZ(-40deg)
+}
+}
